@@ -1,4 +1,14 @@
 @charset "UTF-8";
+@font-face {
+    @import url(https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap);
+
+    font-family: 'FonteLogo';
+    src:url("../_fonts/bubblegum-sans-regular.otf")
+    
+    
+
+
+}
 body {
     background-color:#dddddd;
     color: black;
@@ -12,7 +22,7 @@ p {
 header#cabecalho img#icone {
     position: absolute;
     left:870px;
-    top:60px;
+    top:70px;
 }
 
 header#cabecalho {
@@ -20,9 +30,28 @@ header#cabecalho {
     height: 150px;
     background-image: url("../_imagens/glass-logo-peq.jpg"); 
     background-repeat: no-repeat;
-   
-  
+    background-position: bottom left;
+    margin-top: 10px;
 }
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo';
+    font-size: 30pt;
+    color:#606060;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.603);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2 {
+    
+    color:#888888;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
 /*FORMATAÇÃO DE IMAGENS COM LEGENDA*/
 
 figure.foto-legenda {
@@ -88,6 +117,29 @@ nav#menu li {
     margin: 2px;
     transition: background-color 0.7s;
     border-radius: 8px ;
+}
+
+section#corpo {
+    display: block;
+    width: 520px;
+    float:left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
 }
 
 div#interface {
