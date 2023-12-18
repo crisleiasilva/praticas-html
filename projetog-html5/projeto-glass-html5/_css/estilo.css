@@ -28,8 +28,10 @@ a:hover {
 
 header#cabecalho img#icone {
     position: absolute;
-    left:870px;
-    top:70px;
+    left:990px;
+    top:40px;
+    bottom: 30px;
+  
 }
 
 header#cabecalho {
@@ -46,8 +48,8 @@ header#cabecalho h1 {
     font-size: 30pt;
     color:#606060;
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.603);
-    padding: 0px;
-    margin-bottom: 0px;
+    padding: 10px;
+    margin-bottom: 5px;
 }
 header#cabecalho h2 {
     
@@ -155,7 +157,7 @@ header#cabecalho-artigo h2 {
     font-size: 13pt;
     color:#a5a3a3;
     background-color: #eeecec;
-    margin: 0px;
+    margin-bottom: 8px;
 
 }header#cabecalho-artigo h3 {
     font-size: 12px;
