@@ -248,4 +248,20 @@ div#interface {
     border-radius: 6px;
 
 }
+#vid1 {
+    display: block;
+    position: relative;
+    left:50px;
+    top: -5px;
+    width: 410px;
+  
+}
 
+#vid2 {
+    display: block;
+    position: relative;
+    left:5px;
+    top: 3px;
+    width: 340px;
+  
+}
